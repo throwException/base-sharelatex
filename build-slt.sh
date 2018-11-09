@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t exception/base-sharelatex .
+docker build --no-cache -t exception/base-sharelatex .
 

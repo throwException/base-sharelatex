@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /usr/share/texmf/tex/latex/PPS-Latex-Style && git pull && texhash
+cd /usr/share/texmf/tex/latex/bsg2tex && git pull && texhash
+cd /usr/share/texmf/tex/latex/pger-templates && git pull && texhash
+

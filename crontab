@@ -1,4 +1,0 @@
-/5 * * * * root cd /usr/share/texmf/tex/latex/mmd && git pull && texhash
-/5 * * * * root cd /usr/share/texmf/tex/latex/bsg2tex && git pull && texhash
-/5 * * * * root cd /usr/share/texmf/tex/latex/pger-templates && git pull && texhash
-
