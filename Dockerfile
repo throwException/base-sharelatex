@@ -2,7 +2,7 @@ FROM sharelatex/sharelatex
 MAINTAINER Stefan Thoeni <stefan@savvy.ch>
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y texlive-full texlive-xetex
+RUN apt-get install -y texlive-full texlive-xetex biber
 
 RUN cd /usr/share/fonts/truetype/ && mkdir aller && cd aller && wget https://www.fontsquirrel.com/fonts/download/Aller && mv Aller aller.zip && unzip aller.zip && fc-cache -f -v
 RUN cd /usr/share/fonts/truetype/ && mkdir montserrat && cd montserrat && wget https://www.fontsquirrel.com/fonts/download/montserrat && mv montserrat montserrat.zip && unzip montserrat.zip && fc-cache -f -v
